@@ -1,0 +1,4 @@
+Spring Web MVC(model-view-controller) -> It take away a lot of manually things to write servlets,
+    allows create RESTful services easily.
+    @Controller marks the class as a web controller, by scanning the classes/beans classpath
+    @RestController include Controller and @RespondBody-> automaticly serialize return values into HTTP requests
