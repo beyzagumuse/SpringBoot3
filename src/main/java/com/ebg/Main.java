@@ -51,4 +51,10 @@ public class Main {
         customerRepository.deleteById(id);
     }
 
+    @PutMapping("{customerId}")
+    public void updateCustomer(@PathVariable("customerId") Integer id){
+        //....
+
+    }
+
 }
